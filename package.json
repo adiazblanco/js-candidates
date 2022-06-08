@@ -1,0 +1,25 @@
+{
+  "name": "js-candidates",
+  "version": "1.0.0",
+  "description": "JavaScript POJO challenges for Software Engineer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hero-Candidates/js-candidates.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "JS"
+  ],
+  "author": "Alexander Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hero-Candidates/js-candidates/issues"
+  },
+  "homepage": "https://github.com/Hero-Candidates/js-candidates#readme",
+  "devDependencies": {
+    "jest-cli": "^28.1.1"
+  }
+}
