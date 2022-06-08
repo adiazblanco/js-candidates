@@ -4,8 +4,6 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ "challenge/jr-candidate" ]
   pull_request:
     branches: [ "challenge/jr-candidate" ]
 
@@ -27,3 +25,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
+    - run: npm test
