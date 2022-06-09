@@ -9,8 +9,10 @@
  *              murder for a jar of red rum => TRUE
  */
 
-function palindrome() {
-    return null;
+function palindrome(text) {
+    const cleanText = text.replaceAll(' ', '');
+    const reverseText = cleanText.split('').reverse().join('');
+    return cleanText === reverseText;
 }
 
 module.exports = palindrome;
