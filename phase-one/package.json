@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "JavaScript POJO challenges for Software Engineer",
   "scripts": {
-    "test:phase-one": "./node_modules/jest-cli/bin/jest.js ./code-review/phase-one"
+    "test": "./node_modules/jest-cli/bin/jest.js"
   },
   "repository": {
     "type": "git",

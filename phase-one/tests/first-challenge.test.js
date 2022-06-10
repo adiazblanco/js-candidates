@@ -1,4 +1,4 @@
-const palindrome = require('../../phase-one/first-challenge/palindrome');
+const palindrome = require('../first-challenge/palindrome');
 
 test('Evaluating arepera', () => {
     expect(palindrome('arepera')).toBe(true);

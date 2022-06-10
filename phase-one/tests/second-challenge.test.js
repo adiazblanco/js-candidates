@@ -1,4 +1,4 @@
-const factorial = require('../../phase-one/second-challenge/factorial');
+const factorial = require('../second-challenge/factorial');
 
 test('Evaluating 2', () => {
     expect(factorial(2)).toBe(2);

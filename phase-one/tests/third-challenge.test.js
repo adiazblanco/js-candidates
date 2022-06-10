@@ -1,4 +1,4 @@
-const fizzBuzz = require('../../phase-one/third-challenge/fizz-buzz');
+const fizzBuzz = require('../third-challenge/fizz-buzz');
 
 test('Evaluating 68', () => {
     expect(fizzBuzz()[67]).toBe(68);
