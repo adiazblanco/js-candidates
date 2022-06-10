@@ -9,8 +9,13 @@
  *              murder for a jar of red rum => TRUE
  */
 
-function palindrome() {
-    return null;
+function palindrome(word) {
+
+    let wordReverse;
+    word = word.toLowerCase().replace(/ /g, '');
+    wordReverse = word.split('').reverse().join('');
+
+    return word === wordReverse;
 }
 
 module.exports = palindrome;

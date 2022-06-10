@@ -9,8 +9,9 @@
  *              6 => 720
  */
 
-function factorial() {
-    return null;
+function factorial(number) {
+
+   return number <= 1 ?? number * factorial(number - 1);
 }
 
 module.exports = factorial;
