@@ -1,4 +1,5 @@
-[![Node.js CI](https://github.com/Hero-Candidates/js-candidates/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Hero-Candidates/js-candidates/actions/workflows/node.js.yml)
+[![Challenges Ready](https://github.com/Hero-Candidates/js-candidates/actions/workflows/challenges-dependencies.yml/badge.svg)](https://github.com/Hero-Candidates/js-candidates/actions/workflows/challenges-dependencies.yml)
+
 # js-candidates
 
 
