@@ -11,4 +11,4 @@ function fizzBuzz() {
     return null;
 }
 
-module.export = fizzBuzz;
+module.exports = fizzBuzz;
