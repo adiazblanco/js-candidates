@@ -16,12 +16,13 @@ function createArray() {
     }
 }
 
+createArray();
+
 function isMultiple(number, multiple) {
     return (number % multiple) == 0;
 }
 
 function fizzBuzz() {
-    createArray();
     for (let index = 0; index < array.length; index++) {
 
         if (isMultiple(array[index], 3) && isMultiple(array[index], 5)) {
