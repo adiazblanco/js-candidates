@@ -1,0 +1,27 @@
+{
+  "name": "js-candidates",
+  "version": "1.0.0",
+  "description": "JavaScript POJO challenges for Software Engineer",
+  "scripts": {
+    "install:phase-one": "cd phase-one && npm install && cd ..",
+    "install:phase-two": "cd phase-two && npm install && cd ..",
+    "install:all": "npm run install:phase-one && npm run install:phase-two",
+    "test:phase-one": "cd phase-one && npm test && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hero-Candidates/js-candidates.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "JS",
+    "Angular",
+    "NG"
+  ],
+  "author": "Alexander Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hero-Candidates/js-candidates/issues"
+  },
+  "homepage": "https://github.com/Hero-Candidates/js-candidates#readme"
+}
