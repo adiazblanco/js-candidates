@@ -5,7 +5,7 @@ name: Code Review CI
 
 on:
   pull_request:
-    branches: [ "challenge/jr-candidate" ]
+    branches: [ "*/challenge" ]
 
 jobs:
   build:
