@@ -31,5 +31,7 @@ function fizzBuzz() {
             array[index] = 'buzz'
         }
     }
+
+    return array;
 }
 module.export = fizzBuzz;
