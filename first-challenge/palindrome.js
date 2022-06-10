@@ -12,7 +12,10 @@
 function palindrome(word) {
 
     let wordReverse;
-    word = word.toLowerCase().replace(/ /g, '');
+    word = word.toLowerCase().replace(/ /g, '').replace('.', '');
+    word = word.normalize('NFD')
+        .replace(/([aeio])\u0301|(u)[\u0301\u0308]/gi, "$1$2")
+        .normalize();
     wordReverse = word.split('').reverse().join('');
 
     return word === wordReverse;

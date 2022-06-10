@@ -21,17 +21,19 @@ function isMultiple(number, multiple) {
 }
 
 function fizzBuzz() {
+    createArray();
     for (let index = 0; index < array.length; index++) {
 
         if (isMultiple(array[index], 3) && isMultiple(array[index], 5)) {
-            array[index] = 'fizzbuzz'
+            array[index] = 'FizzBuzz'
         } else if (isMultiple(array[index], 3)) {
-            array[index] = 'fizz'
+            array[index] = 'Fizz'
         } else if (isMultiple(array[index], 5)) {
-            array[index] = 'buzz'
+            array[index] = 'Buzz'
         }
     }
 
     return array;
 }
-module.export = fizzBuzz;
+
+module.exports = fizzBuzz;
